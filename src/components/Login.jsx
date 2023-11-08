@@ -39,6 +39,7 @@ function Login() {
       setError('se envio un email')
     }catch(error){
       setError(error.message)
+      console.log('jeeje')
     }
   }
   
